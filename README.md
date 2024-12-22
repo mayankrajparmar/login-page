@@ -1,8 +1,83 @@
-# React + Vite
+Here’s a concise **README.md** file with all commands and details:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+````markdown
+# Unstop Login and Main Page
 
-Currently, two official plugins are available:
+This is a simple responsive React app built using **Vite**. It includes:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- A Login page with form validation.
+- A Main page displaying user details fetched from `localStorage`.
+
+## Features
+
+- Login validation for username, email (optional), and password.
+- Stores user token and details in `localStorage` after login.
+- Main page shows user info and a logout option.
+- Fully responsive design with **TailwindCSS**.
+
+## Commands
+
+### Install Dependencies
+
+```bash
+npm install
+```
+````
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## File Structure
+
+```plaintext
+src/
+├── components/    # Reusable components like FormInput
+├── pages/         # LogInPage and MainPage
+├── App.tsx        # Main application entry
+├── main.tsx       # Application entry point
+├── styles/        # Global styles
+```
+
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/unstop-login-mainpage.git
+   cd unstop-login-mainpage
+   ```
+2. Install dependencies and start the dev server:
+   ```bash
+   npm install
+   npm run dev
+   ```
+3. Open `http://localhost:5173` in your browser.
+
+## Tech Stack
+
+- **React + TypeScript**
+- **Vite**
+- **TailwindCSS**
+
+## License
+
+Licensed under the [MIT License](LICENSE).
+
+```
+
+Let me know if you need any changes or additions!
+```
